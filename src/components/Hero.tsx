@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Typewriter } from 'react-simple-typewriter';
 import './Hero.css';
 
 const Hero = () => {
@@ -17,13 +18,28 @@ const Hero = () => {
                 >
                     Hi, I'm <span>Sudhan Santhosraj J</span>
                 </motion.h1>
-                <motion.p
+                <motion.h2
+                    className="typewriter-text"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
+                    style={{
+                        color: 'var(--text-secondary)',
+                        fontSize: '1.5rem',
+                        marginBottom: '2.5rem',
+                        height: '1.8rem' // Prevent layout shift
+                    }}
                 >
-                    CS Engineer | Full Stack Developer | AI Enthusiast
-                </motion.p>
+                    <Typewriter
+                        words={['CS Engineer', 'Full Stack Developer', 'AI Enthusiast', 'Freelancer']}
+                        loop={true}
+                        cursor
+                        cursorStyle='_'
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                    />
+                </motion.h2>
                 <motion.div
                     className="btn-group"
                     initial={{ opacity: 0, y: 20 }}
