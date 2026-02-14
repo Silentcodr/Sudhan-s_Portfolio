@@ -8,7 +8,7 @@ const Footer = () => {
             background: 'rgba(10, 10, 10, 0.8)',
             fontSize: '0.9rem'
         }}>
-            <p>&copy; {new Date().getFullYear()} SilentCodr. Built with React & Vanilla CSS.</p>
+            <p>&copy; {new Date().getFullYear()} Sudhan Santhosraj J. Built with React & Vanilla CSS.</p>
         </footer>
     );
 };

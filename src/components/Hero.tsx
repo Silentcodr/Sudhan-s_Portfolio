@@ -15,14 +15,14 @@ const Hero = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
                 >
-                    Hi, I'm <span>SilentCodr</span>
+                    Hi, I'm <span>Sudhan Santhosraj J</span>
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
                 >
-                    I craft high-performance web applications and Python utilities.
+                    CS Engineer | Full Stack Developer | AI Enthusiast
                 </motion.p>
                 <motion.div
                     className="btn-group"

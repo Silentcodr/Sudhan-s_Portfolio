@@ -4,44 +4,23 @@ import './Projects.css';
 
 const projects = [
     {
-        title: "Portfolio Website",
-        description: "Modern minimalist portfolio built with React, TypeScript, and Framer Motion. Features a dark theme with glassmorphism effects.",
-        tech: ["React", "TypeScript", "Framer Motion"],
+        title: "CB's Kitchen (Freelance)",
+        description: "Fully responsive food ordering website with WhatsApp automation integration, boosting order efficiency by 40%. Features lazy loading and SEO optimization.",
+        tech: ["React", "HTML/CSS", "WhatsApp API"],
+        github: "https://github.com/Silentcodr/CB-Kitchen",
+        demo: "https://silentcodr.github.io/CB-Kitchen/"
+    },
+    {
+        title: "AI Medical Fundraising System",
+        description: "AI-based fraud detection system for fundraising. Integrated YOLOv8 and PaddleOCR to reduce manual verification by 50% with 94% accuracy.",
+        tech: ["Python", "Flask", "YOLOv8", "Bootstrap"],
         github: "https://github.com/Silentcodr",
         demo: "#"
     },
     {
-        title: "Python Automation Suite",
-        description: "A comprehensive collection of Python scripts for automating daily tasks, file management, and data scraping.",
-        tech: ["Python", "Selenium", "Pandas"],
-        github: "https://github.com/Silentcodr",
-        demo: "#"
-    },
-    {
-        title: "Django E-Commerce",
-        description: "Full-stack e-commerce platform with user authentication, product management, and payment gateway integration.",
-        tech: ["Django", "Python", "Stripe API"],
-        github: "https://github.com/Silentcodr",
-        demo: "#"
-    },
-    {
-        title: "AI Chat Interface",
-        description: "Responsive chat interface integrating OpenAI API for real-time AI conversations.",
-        tech: ["React", "Node.js", "OpenAI"],
-        github: "https://github.com/Silentcodr",
-        demo: "#"
-    },
-    {
-        title: "Weather Dashboard",
-        description: "Real-time weather tracking application using OpenWeatherMap API with location detection.",
-        tech: ["JavaScript", "HTML/CSS", "API"],
-        github: "https://github.com/Silentcodr",
-        demo: "#"
-    },
-    {
-        title: "Task Management App",
-        description: "Productivity tool for managing tasks with drag-and-drop functionality and local storage persistence.",
-        tech: ["React", "Redux", "Tailwind"],
+        title: "Secure Credential Manager",
+        description: "Spring Boot application for generating and managing strong credentials. Uses AES encryption for secure storage and REST APIs.",
+        tech: ["Java", "Spring Boot", "MySQL", "AES"],
         github: "https://github.com/Silentcodr",
         demo: "#"
     }
