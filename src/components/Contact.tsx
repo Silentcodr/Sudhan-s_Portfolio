@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -44,8 +44,8 @@ const Contact = () => {
                 viewport={{ once: true }}
             >
                 <a href="https://github.com/Silentcodr" target="_blank" rel="noopener noreferrer" className="social-link"><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/sudhan-santhosraj-j-3a9341214/" target="_blank" rel="noopener noreferrer" className="social-link"><FaLinkedin /></a>
                 <a href="mailto:sudhansanthoshraj007@gmail.com" className="social-link"><FaEnvelope /></a>
-                {/* <a href="#" className="social-link"><FaLinkedin /></a> */}
             </motion.div>
             <p style={{ marginTop: '2rem', color: 'var(--text-secondary)' }}>
                 📍 Bangalore, Karnataka <br />
