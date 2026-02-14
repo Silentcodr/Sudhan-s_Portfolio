@@ -7,22 +7,25 @@ const projects = [
         title: "CB's Kitchen (Freelance)",
         description: "Fully responsive food ordering website with WhatsApp automation integration, boosting order efficiency by 40%. Features lazy loading and SEO optimization.",
         tech: ["React", "HTML/CSS", "WhatsApp API"],
-        github: "https://github.com/Silentcodr/CB-Kitchen",
-        demo: "https://silentcodr.github.io/CB-Kitchen/"
+        github: "https://github.com/Silentcodr/Project-CB-s-Kitchen",
+        demo: "https://silentcodr.github.io/Project-CB-s-Kitchen/",
+        demoLabel: "Visit Website"
     },
     {
         title: "AI Medical Fundraising System",
         description: "AI-based fraud detection system for fundraising. Integrated YOLOv8 and PaddleOCR to reduce manual verification by 50% with 94% accuracy.",
         tech: ["Python", "Flask", "YOLOv8", "Bootstrap"],
-        github: "https://github.com/Silentcodr",
-        demo: "#"
+        github: "https://github.com/Silentcodr/Final-Year-Project.git",
+        demo: "#",
+        demoLabel: "Live Demo"
     },
     {
         title: "Secure Credential Manager",
         description: "Spring Boot application for generating and managing strong credentials. Uses AES encryption for secure storage and REST APIs.",
         tech: ["Java", "Spring Boot", "MySQL", "AES"],
-        github: "https://github.com/Silentcodr",
-        demo: "#"
+        github: "https://github.com/Silentcodr/secure-credential-manager.git",
+        demo: "#",
+        demoLabel: "Live Demo"
     }
 ];
 
@@ -60,9 +63,11 @@ const Projects = () => {
                             <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
                                 <FaGithub /> Code
                             </a>
-                            <a href={project.demo} className="project-link">
-                                <FaExternalLinkAlt /> Demo
-                            </a>
+                            {project.demo !== "#" && (
+                                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">
+                                    <FaExternalLinkAlt /> {project.demoLabel}
+                                </a>
+                            )}
                         </div>
                     </motion.div>
                 ))}

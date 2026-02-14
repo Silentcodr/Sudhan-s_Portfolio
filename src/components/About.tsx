@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaJava, FaReact, FaJs, FaDatabase, FaFileDownload } from 'react-icons/fa';
-import { SiSpringboot, SiSpring, SiMysql } from 'react-icons/si';
+import { SiSpringboot, SiMysql } from 'react-icons/si';
 import './About.css';
 
 const About = () => {
