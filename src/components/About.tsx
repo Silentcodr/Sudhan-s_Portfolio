@@ -34,7 +34,7 @@ const About = () => {
                         Currently, I am focused on delivering high-quality, full-stack solutions and exploring the potential of AI integration in web apps.
                     </p>
 
-                    <a href="#" className="resume-btn">
+                    <a href="/resume.pdf" download="Sudhan_Santhosraj_Resume.pdf" className="resume-btn">
                         <FaFileDownload /> Download Resume
                     </a>
                 </motion.div>
