@@ -5,14 +5,12 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import Cursor from './components/Cursor';
 import ScrollProgress from './components/ScrollProgress';
 import BackToTop from './components/BackToTop';
 
 function App() {
   return (
     <div className="container">
-      <Cursor />
       <ScrollProgress />
       <Navbar />
       <Hero />
