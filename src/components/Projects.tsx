@@ -20,6 +20,14 @@ const projects = [
         demoLabel: "Live Demo"
     },
     {
+        title: "Elegant Dashboard (Project Clock)",
+        description: "A comprehensive productivity dashboard featuring a real-time clock, live weather updates, timer, and music player.",
+        tech: ["HTML5", "CSS3", "JavaScript"],
+        github: "https://github.com/Silentcodr/Project-Clock",
+        demo: "https://silentcodr.github.io/Project-Clock/",
+        demoLabel: "Visit Website"
+    },
+    {
         title: "Secure Credential Manager",
         description: "Spring Boot application for generating and managing strong credentials. Uses AES encryption for secure storage and REST APIs.",
         tech: ["Java", "Spring Boot", "MySQL", "AES"],
