@@ -1,94 +1,78 @@
-# 👨‍💻 Sudhan Santhosraj J  
+# 🚀 Sudhan Santhosraj Portfolio Website
 
-📍 Bangalore, Karnataka  
-📧 sudhansanthoshraj007@gmail.com | 📞 +91-8925409139  
-🔗 GitHub: https://github.com/Silentcodr  
+A modern, responsive, and interactive personal portfolio website built to showcase my skills, projects, and experience as a Full Stack Developer.
 
----
+![Portfolio Preview](./public/preview.png)
+*(Note: Add a screenshot of your site here after deployment)*
 
-## 🎓 Education  
+## ✨ Features
 
-**Bachelor of Engineering – Computer Science and Engineering**  
-Apollo Engineering College (Nov 2021 – June 2025)  
-📊 CGPA: 8.21  
+- **🎨 Modern Dark/Blue Theme**: Sleek UI with glassmorphism effects.
+- **📱 Fully Responsive**: Optimized for Desktop, Tablet, and Mobile.
+- **⚡ High Performance**: Built with Vite + React for blazingly fast load times.
+- **🏃‍♂️ Interactive Animations**: Smooth transitions using Framer Motion.
+- **🛠 Tech Stack**:
+    - **Frontend**: React.js, TypeScript
+    - **Styling**: Vanilla CSS (Variables, Flexbox/Grid)
+    - **Libraries**: `framer-motion` (Animations), `react-icons` (Icons), `react-simple-typewriter` (Hero Effect)
+- **📬 Functional Contact Form**: Integrated with **Formspree** for real email submissions.
 
----
+## 📂 Project Structure
 
-## 💼 Freelancing Experience  
+```
+src/
+├── components/      # UI Components (Hero, About, Projects, etc.)
+│   ├── FloatingIcons.tsx  # Hero Background Animation
+│   ├── ScrollProgress.tsx # Reading Progress Bar
+│   └── ...
+├── styles/          # Component-specific CSS
+├── App.tsx          # Main Application Layout
+└── main.tsx         # Entry Point
+```
 
-### 🌐 Freelance Web Developer — CB’s Kitchen (August 2025)
+## 🚀 Getting Started
 
-- Built a fully responsive food ordering website using HTML, CSS, JavaScript, and React  
-- Integrated WhatsApp automation to streamline orders (improved efficiency by 40%)  
-- Implemented SEO optimization, lazy loading, and mobile-first UI  
-- Deployed on GitHub Pages  
+To run this project locally:
 
-🔗 Project Link: https://silentcodr.github.io/CB-Kitchen/  
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Silentcodr/Sudhan-s_Portfolio.git
+    cd Portfolio
+    ```
 
----
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-## 🚀 Projects  
+3.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
 
-### 🧠 AI-Driven Medical Fundraising Verification System  
+4.  **Build for Production**:
+    ```bash
+    npm run build
+    ```
 
-- Python + Flask based AI fraud detection system  
-- Integrated YOLOv8 & PaddleOCR for document analysis  
-- Improved accuracy by 35%  
-- Reduced manual verification by 50%  
-- Built responsive dashboard with Bootstrap & JavaScript  
+## 🌐 Deployment
 
----
+This project is optimized for deployment on **Netlify**, **Vercel**, or **GitHub Pages**.
 
-### 🔐 Secure Credential Generator & Manager  
+### Deploy on Netlify (Recommended)
+1.  Log in to [Netlify](https://www.netlify.com/).
+2.  Click **"Add new site"** -> **"Import from existing project"**.
+3.  Connect to **GitHub** and select this repository.
+4.  **Build Settings**:
+    - **Build Command**: `npm run build`
+    - **Publish Directory**: `dist`
+5.  Click **Deploy Site**.
 
-- Spring Boot application for secure credential handling  
-- REST APIs for generating strong credentials  
-- AES encryption for secure storage  
-- Spring Security authentication  
+## 📞 Contact
 
----
-
-## 🛠 Technical Skills  
-
-### Programming Languages  
-- Core Java  
-- JavaScript  
-
-### Backend  
-- Spring Boot  
-- REST APIs  
-
-### Databases  
-- MySQL  
-- Oracle SQL  
-
-### AI Tools  
-- Cursor AI  
-- AntiGravity AI  
-
-### Developer Tools  
-- Git  
-- GitHub  
-- Postman  
-- Eclipse  
-
----
-
-## 📚 Courses & Training  
-
-- Elements of AI — MinnaLearn, University of Helsinki  
-- SQL Masterclass: Basics to Expert — Udemy  
-- Java Full Stack Development — JSpiders (Ongoing)  
+- **Email**: [sudhansanthoshraj007@gmail.com](mailto:sudhansanthoshraj007@gmail.com)
+- **LinkedIn**: [Sudhan Santhosraj J](https://www.linkedin.com/in/sudhan-santhosraj-j-3a9341214/)
+- **GitHub**: [Silentcodr](https://github.com/Silentcodr)
 
 ---
-
-## 📜 Certificates  
-
-- Accenture Software Engineering Job Simulation  
-- Coursera Lead Generation Chatbot  
-- Elements of AI Certificate  
-- SQL Masterclass Certificate  
-
----
-
-⭐ If you like my work, consider starring my repositories!
+© 2026 Sudhan Santhosraj J. Built with React & ❤️.
