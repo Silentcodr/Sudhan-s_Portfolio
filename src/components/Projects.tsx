@@ -34,6 +34,14 @@ const projects = [
         github: "https://github.com/Silentcodr/secure-credential-manager.git",
         demo: "#",
         demoLabel: "Live Demo"
+    },
+    {
+        title: "Micro-Frontend E-Commerce Admin",
+        description: "Scalable admin dashboard architecture using React, TypeScript, and Webpack Module Federation. Features independent micro-apps for Products, Orders, and Analytics.",
+        tech: ["React", "TypeScript", "Webpack", "Node.js"],
+        github: "https://github.com/Silentcodr/micro-frontend-ecommerce-admin.git",
+        demo: "#",
+        demoLabel: "Live Demo"
     }
 ];
 
