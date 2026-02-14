@@ -2,9 +2,12 @@ import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
 import './Hero.css';
 
+import FloatingIcons from './FloatingIcons';
+
 const Hero = () => {
     return (
         <section id="home" className="hero">
+            <FloatingIcons />
             <motion.div
                 className="hero-content"
                 initial={{ opacity: 0, y: 30 }}
