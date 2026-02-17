@@ -24,7 +24,7 @@ const projects = [
         description: "A comprehensive productivity dashboard featuring a real-time clock, live weather updates, timer, and music player.",
         tech: ["HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/Silentcodr/Project-Clock",
-        demo: "https://silentcodr.github.io/Project-Clock/",
+        demo: "https://orbitdashboard.netlify.app/",
         demoLabel: "Visit Website"
     },
     {

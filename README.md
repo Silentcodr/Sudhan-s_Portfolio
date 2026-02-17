@@ -1,5 +1,7 @@
 # 🚀 Sudhan Santhosraj Portfolio Website
 
+🔗 **Live Demo:** [https://sudhanportfo1io.netlify.app/](https://sudhanportfo1io.netlify.app/)
+
 A modern, responsive, and interactive personal portfolio website built to showcase my skills, projects, and experience as a Full Stack Developer.
 
 ![Portfolio Preview](./public/preview.png)
